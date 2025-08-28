@@ -1,0 +1,25 @@
+[project]
+name = "google-drive-activity-log"
+version = "0.1.0"
+description = "A program to fetch google drive changing history"
+authors = [
+    {name = "franklincheung-dev",email = "franklincheung@beNovelty.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "apscheduler (>=3.11.0,<4.0.0)",
+    "google-api-python-client (>=2.176.0,<3.0.0)",
+    "google-auth (>=2.40.3,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "google-auth-oauthlib (>=1.2.2,<2.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
