@@ -6,4 +6,4 @@ client_secret.json
 token.json
 .env
 secrets
-    
+.DS_Store
